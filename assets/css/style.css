@@ -1,0 +1,199 @@
+/*start css global code*/
+
+body {
+  font-family: 'cairo' , sans-serif;
+  margin: 0px;
+  padding: 0px;
+  margin-top: 15px;
+  background-image: url('../images/login1.jpg');
+  background-repeat: no-repeat;
+  background-clip: content-box;
+  background-size: cover;
+}
+
+a {
+  text-decoration: none;
+}
+
+/*End css global code*/
+
+/*Start Form Code*/
+.container {
+  margin-top: 10px;
+  width: 600px;
+  height: auto;
+  background-color: #eceef1;
+  border-radius: 10px;
+  margin: 0 auto;/*To centerize container*/
+  border: 5px solid #6c7a8d;
+}
+
+h1.loginbodytitle {
+  margin-top: 1px;
+  text-align: center;
+  color: #4db3a5;
+  text-shadow: 2px 2px #4db3a5;
+  margin-bottom: 5px;
+}
+
+.loginimage {
+  width: 85px;
+  height: 85px;
+  border-radius: 50%;
+}
+
+
+.loginbody {
+  padding: 40px;
+  text-align: center;
+  box-sizing: border-box;
+}
+
+.mainform {
+ width: 100%;
+ height: auto;
+}
+
+/*form inputs*/
+.forminput {
+  width: 100%;
+  height: 40px;
+  background-color: #dde3ec;
+  border: 0px; /*or border: none*/
+  margin-bottom: 20px;
+  padding-left: 10px;
+  box-sizing: border-box;
+  border: none;
+}
+
+.forminput:focus {
+  border: 2px solid #4db3a5;
+  background-color: #ddd;
+  color: #fff;
+}
+
+.forminput:hover {
+  background-color:#4db3a5;
+}
+
+/*form submit button*/
+.submitbtn {
+  border: 0px;
+  background-color: #26a69a;
+  color: white;
+  padding: 5px 10px;
+  transition: .5s;
+  border-radius: 20px;
+  width: 70px;
+}
+
+.submitbtn:hover {
+  background-color: #187369;
+}
+
+.bottomformleft {
+  float: left;
+  width:50%;
+  text-align: left;
+}
+
+.bottomformright {
+  float: right;
+  width: 50%;
+  text-align: right;
+}
+
+a.forgetpassword {
+ color: black;
+ text-decoration: none;
+}
+
+a.forgetpassword:hover {
+  text-decoration: underline;
+}
+
+.clear {
+  clear: both;
+}
+
+.socialsection {
+  width: 100%;
+  height: auto;
+  margin-top: 20px;
+}
+
+.loginwithlabel {
+  float: left;
+  width: 50%;
+  text-align: left;
+}
+
+.sociallinks {
+  float: right;
+  width: 50%;
+  text-align: right;
+}
+
+.socialsection {
+  width: 100%;
+  height: auto;
+  margin-top:20px;
+}
+
+.loginwithlabel {
+  float: left;
+  width: 50%;
+  text-align: left;
+}
+
+.socialicons {
+  float: right;
+  width: 50%;
+  text-align: right;
+}
+
+.socialicons a {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 30px;
+  color: white;
+  display: inline-block;
+}
+
+/*start icons style*/
+.fb {
+  background-color: #7a94b6;
+}
+
+.gplus {
+  background-color: #e07b6f;
+}
+
+.twitter {
+  background-color: #70ceee;
+}
+/*end icon style*/
+
+.footer {
+  background-color: #6c7a8d;
+  height: 90px;
+  text-align: center;
+  line-height:90px;
+  color: white;
+}
+
+.footer a {
+  text-decoration: none;
+  color: white;
+  text-transform: uppercase;
+}
+
+.footer a::after {
+  content: "|";
+}
+
+.footer a:last-child::after {
+  content: "";
+}

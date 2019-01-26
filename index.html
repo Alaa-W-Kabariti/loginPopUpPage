@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <!--faveicon-->
+    <link rel="shortcut icon" href="images/login.png" type="image/x-icon" >
+    <!--Google fonts link-->
+    <!--fontName:Cairo-->
+    <link href="https://fonts.googleapis.com/css?family=Cairo" rel="stylesheet">
+    <!--Awesome link-->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <title>Login</title>
+
+
+      <style>
+          #shadow {
+              width: 100%;
+              position: fixed;
+              height: 100%;
+              background-color: rgba(3,3,3,0.7);
+              display: none;
+              margin-top: -75px;
+          }
+          .popUp {
+              width: 600px;
+              height: auto;
+              margin: 0 auto;
+              display: none;
+              margin-top: 50px;
+          }
+
+          .click {
+              width: 150px;
+              height: 60px;
+              text-align: center;
+              background-color: lightcoral;
+              border: none;
+          }
+
+          .close {
+              width: 150px;
+              height: 60px;
+              text-align: center;
+              background-color:  #4db3a5;
+              color: gray;
+              border: 3px solid gray;
+              -webkit-transition:  .5s;
+              -moz-transition:  .5s;
+              -ms-transition:  .5s;
+              -o-transition:  .5s;
+              transition:  0.5s;
+          }
+          
+          .close:hover {
+              background-color: gray;
+              color: #4db3a5;
+              border: 3px dotted #4db3a5;
+              font-size: 20px;
+              -webkit-transition:  .5s;
+              -moz-transition:  .5s;
+              -ms-transition:  .5s;
+              -o-transition:  .5s;
+              transition:  0.5s;
+          }
+
+      </style>
+  </head>
+  <body>
+
+  <button class="click">Click</button>
+
+  <div id="shadow">
+      <div class="popUp">
+          <button class="close">close</button>
+
+          <div class="container">
+              <div class="loginbody">
+                  <h1 class="loginbodytitle">Log In</h1>
+                  <center><img class="loginimage" src="images/loginimage.jpg" alt=""></center>
+                  <!--start login form inputs-->
+                  <form class="mainform" action="index.html" method="post">
+                      <input class="forminput" type="text" name="" value="" placeholder="Enter UserName" required>
+                      <input class="forminput" type="Email" name="" value="" placeholder="Enter Your Email" required>
+                      <input class="forminput" type="Password" name="" value="" placeholder="Enter password" required>
+                      <!--leftside form-->
+                      <div class="bottomformleft">
+                          <input class="submitbtn" type="submit" name="" value="login">
+                          <input type="checkbox">
+                          <label for="">Remember Me</label>
+                      </div>
+                      <!--rightside form-->
+                      <div class="bottomformright">
+                          <a class="forgetpassword" href="ForgetPassword.html">Forget Password?</a>
+                      </div>
+                      <div class="clear"></div>
+                  </form>
+                  <!--end login form inputs-->
+                  <!--socialmedia links-->
+                  <div class="socialsection">
+                      <!--start left side-->
+                      <div class="loginwithlabel">
+                          <span>Login With :</span>
+                      </div>
+                      <!--end left side-->
+                      <!--start right side-->
+                      <div class="socialicons">
+                          <a class="links fb" href="http://www.facebook.com"><i class="fab fa-facebook-f"></i></a>
+                          <a class="links gplus" href="http://www.googleplus.com"><i class="fab fa-google-plus-g"></i></a>
+                          <a class="links twitter" href="http://www.twitter.com"><i class="fab fa-twitter"></i></a>
+                      </div>
+                      <!--end right side-->
+                      <div class="clear"></div>
+                  </div>
+              </div>
+              <div class="footer">
+                  <a href="##">Create acount</a>
+                  <a href="##">Email verification</a>
+              </div>
+          </div>
+      </div>
+
+  </div>
+
+
+
+
+
+   <script src="assets/js/jquery-3.3.1.min.js"></script>
+
+   <script src="assets/js/min.js"></script>
+  </body>
+</html>
